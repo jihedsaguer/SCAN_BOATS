@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WaterBoat &mdash; Website Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Dancing+Script:400,700|Muli:300,400"
+          rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/jquery-ui.css" rel="stylesheet">
+    <link href="./css/owl.carousel.min.css" rel="stylesheet">
+    <link href="./css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="./css/owl.theme.default.min.css" rel="stylesheet">
+
+    <link href="./css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-datepicker.css" rel="stylesheet">
+    <link href="./fonts/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="./css/aos.css" rel="stylesheet">
+    <link href="./css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet">
+
+
+</head>
+
+
+<body data-offset="300" data-spy="scroll" data-target=".site-navbar-target">
+
+<div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <img alt="SACN Logo" class="img-fluid" src="./images/logo.png">
+                <div class="mx-auto">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
+                            <!-- Home Section -->
+                            <li class="active">
+                                <a class="nav-link text-left" href="./index.html">Accueil</a>
+                            </li>
+                            <!-- About Us Section -->
+                            <li>
+                                <a class="nav-link text-left" href="./about.html">A Propos</a>
+                            </li>
+                            <!-- Services Section -->
+                            <li class="has-children">
+                                <a class="nav-link text-left" href="#">Services <span class="arrow"></span></a>
+                                <ul class="dropdown">
+                                    <li><a class="nav-link text-left" href="./services.html#boat-manufacturing">Fabrication
+                                        de Bateaux</a></li>
+                                    <li><a class="nav-link text-left" href="./services.html#boat-modification">Modification
+                                        de Bateaux</a></li>
+                                    <li><a class="nav-link text-left" href="./services.html#maintenance">Rattrapage et
+                                        Entretien</a></li>
+                                    <li><a class="nav-link text-left" href="./services.html#repairs">Réparations</a></li>
+                                    <li><a class="nav-link text-left" href="./services.html#new-build">Construction de
+                                        Nouveaux Bateaux</a></li>
+                                </ul>
+                            </li>
+                            <!-- Projects Section -->
+                            <li>
+                                <a class="nav-link text-left" href="./project.html">Projets</a>
+                            </li>
+                            <!-- Contact Section -->
+                            <li>
+                                <a class="nav-link text-left" href="./contact.html">Contact</a>
+                            </li>
+
+                            <!-- Language Switcher -->
+                            <li class="has-children">
+                                <a class="nav-link text-left" href="">
+                                    <img alt="Languages" class="flag-icon" src="./images/united-states.png">
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="dropdown">
+                                    <li><a class="nav-link text-left" href="?lang=en"><img
+                                            alt="English" class="flag-icon" src="./images/united-states.png">EN</a></li>
+                                    <li><a class="nav-link text-left" href="?lang=fr"><img alt="Français"
+                                                                                           class="flag-icon"
+                                                                                           src="./images/france.png">FR</a></li>
+                                    <li><a class="nav-link text-left" href="?lang=it"><img alt="Italiano"
+                                                                                           class="flag-icon"
+                                                                                           src="./images/italy.png">IT</a></li>
+                                    <li><a class="nav-link text-left" href="?lang=ar"><img
+                                            alt="العربية" class="flag-icon" src="./images/saudi-arabia.png">AR</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="cont">
+
+    <div class="header">
+        <h1>Detail View</h1>
+    </div>
+    <div class="details-content">
+        <img id="details-image" src="" alt="Detail Image">
+        <h1 id="details-title">Details Title</h1>
+        <p id="details-description">Details description goes here. This area will contain a more detailed and expansive explanation of the item represented in the chart, providing users with comprehensive information about the specific boat, contribution, or future plan, including historical context, technical specifications, and other relevant data that enhances the understanding of the subject.</p>
+        <a class="back-btn" href="./index.html">Back to Chart</a>
+        <!-- New Booking Form Section -->
+        <div class="booking-form-section">
+            <div class="container">
+                <h2 class="booking-form-title">Book Your Yacht</h2>
+                <form id="booking-form" action="/submit-booking" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first_name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last_name" class="form-control" required>
+                    </div>
+                    <a class="back-btn" href="./details.html">Book</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="" class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <p class="mb-4"><img alt="Image" class="img-fluid" src="images/logo.png"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto
+                    iure.</p>
+                <p><a href="#">Learn More</a></p>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="footer-heading"><span>Our Company</span></h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="footer-heading"><span>Our Services</span></h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Industrial</a></li>
+                    <li><a href="#">Construction</a></li>
+                    <li><a href="#">Remodeling</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="footer-heading"><span>Contact</span></h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Support Community</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Our Partners</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!-- .site-wrap -->
+
+
+    <!-- loader -->
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Extract the 'id' parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id');
+
+        // Define a mapping of IDs to details
+        const detailsMap = {
+            'popup-chart-1': {
+                title: 'Boat 1 Details',
+                description: 'Detailed information about Boat 1. This boat is known for its excellent performance and durability. It has been used in numerous expeditions and has a rich history of successful voyages. The boat features a state-of-the-art navigation system and a comfortable cabin designed for long trips.',
+                image: '/images/boat1.jpg',
+
+            },
+            'popup-chart-2': {
+                title: 'Contribution 1 Details',
+                description: 'Detailed information about Contribution 1. This contribution involves significant advancements in boat technology and has greatly impacted maritime activities. The improvements made are crucial for enhancing safety and efficiency during sea voyages.',
+                image: '/images/contrib_1.jpg'
+            },
+            'popup-chart-3': {
+                title: 'Future Plan 1 Details',
+                description: 'Detailed information about Future Plan 1. This plan outlines ambitious goals for future boat development, including innovative designs and the incorporation of sustainable technologies. The plan aims to set new standards in the boating industry and contribute to environmental conservation.',
+                image: '/images/person_1.jpg'
+            }
+        };
+
+        // Update the page with details based on the 'id'
+        if (id && detailsMap[id]) {
+            const details = detailsMap[id];
+            document.getElementById('details-title').textContent = details.title;
+            document.getElementById('details-description').textContent = details.description;
+            document.getElementById('details-image').src = details.image;
+        } else {
+            // Handle case where ID is not found or invalid
+            document.getElementById('details-title').textContent = 'No Details Available';
+            document.getElementById('details-description').textContent = 'Sorry, no details are available for the selected item.';
+            document.getElementById('details-image').src = '';
+        }
+    });
+    $(function () {
+        $("#dates").datepicker({
+            format: "dd/mm/yyyy",
+            autoclose: true,
+            startDate: "today"
+        });
+    });
+
+</script>
+</body>
+</html>
+<!-- loader -->
+<div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#ff5e15"/></svg></div>
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/jquery-migrate-3.0.1.min.js"></script>
+<script src="./js/jquery-ui.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="./js/jquery.stellar.min.js"></script>
+<script src="./js/jquery.countdown.min.js"></script>
+<script src="./js/bootstrap-datepicker.min.js"></script>
+<script src="./js/jquery.easing.1.3.js"></script>
+<script src="./js/aos.js"></script>
+<script src="./js/jquery.fancybox.min.js"></script>
+<script src="./js/jquery.sticky.js"></script>
+<script src="./js/jquery.mb.YTPlayer.min.js"></script>
+
+
+<script src="./js/app.js"></script>
+
+
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>
