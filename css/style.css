@@ -34,7 +34,8 @@ h1, h2, h3, h4, h5,
   font-family: "Dancing Script", sans-serif; }
 
 .text-black {
-  color: #000 !important; }
+  color: #000 !important;
+}
 
 .bg-black {
   background: #000 !important; }
@@ -258,7 +259,7 @@ canvas {
   display: none;
   background-color: #fff;
   color: #000;
-  border: 2px solid #8B4513; /* Brown border for popup */
+  border: 2px solid #0d426e; /* Brown border for popup */
   border-radius: 8px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   padding: 15px;
@@ -280,7 +281,7 @@ canvas {
 }
 
 .popup button {
-  background-color: #8B4513; /* Brown button color */
+  background-color: #194c86; /* Brown button color */
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -291,13 +292,14 @@ canvas {
 }
 
 .popup button:hover {
-  background-color: #6a2f1e; /* Darker brown on hover */
+  background-color: #82b1e8; /* Darker brown on hover */
 }
 
 .chart-area {
   border: 2px solid #8B4513; /* Brown border for chart area */
   border-radius: 8px;
   padding: 10px;
+
 }
 
 /* Responsive design adjustments */
@@ -316,6 +318,7 @@ canvas {
   .chart-container {
     width: 50vw; /* Half of the viewport width */
     height: 50vh; /* Half of the viewport height */
+
   }
 
   .popup {
@@ -399,12 +402,14 @@ canvas {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+
 }
 
 .chart-container {
   position: relative;
   padding: 20px;
   border-radius: 8px;
+  margin-top: 160px;
 
 }
 
@@ -1224,6 +1229,329 @@ canvas {
         .hero-slide .owl-nav .owl-prev:hover > span,
         .hero-slide .owl-nav .owl-next:hover > span {
           color: #fff; }
+/* Font Awesome icons for arrows */
+.owl-prev:before {
+  content: '\f053'; /* Font Awesome left arrow */
+  font-family: 'Font Awesome 5 Free', serif; /* Ensure this matches the Font Awesome version */
+  font-weight: 900; /* Bold icon */
+}
+
+.owl-next:before {
+  content: '\f054'; /* Font Awesome right arrow */
+  font-family: 'Font Awesome 5 Free', serif; /* Ensure this matches the Font Awesome version */
+  font-weight: 900; /* Bold icon */
+}
+.owl-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  font-size: 24px; /* Size of the arrow */
+  width: 40px; /* Width of the circle */
+  height: 40px; /* Height of the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 40px; /* Center the icon vertically */
+  position: relative; /* Allow adjustments with absolute positioning */
+}
+
+
+
+
+
+
+/* Main image style */
+#details-image {
+
+  display: block;
+  margin: 20% auto;
+  border-radius: 8px;
+}
+
+/* General styles for the details container */
+.details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+}
+/* Form container styling */
+.contact-form-container {
+
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+
+}
+
+/* Form title */
+.contact-form-container h2 {
+  font-size: 1.5rem;
+  color: #003366;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+  text-align: center; /* Center input fields */
+}
+
+/* Form labels */
+.form-group label {
+
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Form inputs */
+.form-group input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 auto; /* Center input fields */
+  display: block;
+}
+
+/* Submit button styling */
+.form-submit-btn {
+  width: 10%;
+  padding: 8px 16px;
+  font-size: 0.875rem; /* Smaller font size for the button */
+  color: #ffffff;
+  background-color: #003366;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto; /* Center the button */
+  display: block;
+}
+
+.form-submit-btn:hover {
+  background-color: #00509e;
+}
+
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 15px;
+  }
+
+  .contact-form-container h2 {
+    font-size: 1.25rem;
+  }
+
+  .form-group input {
+    font-size: 0.875rem;
+    width: 80%; /* Slightly wider on small screens */
+  }
+
+  .form-submit-btn {
+    font-size: 0.875rem;
+  }
+}
+/* Flex container for image and details */
+.image-and-details {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center; /* Center content horizontally */
+  max-width: 1200px; /* Limit the maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+
+
+.details-image {
+  width: 100%;
+  max-width: 600px; /* Increased max-width */
+  border-radius: 8px;
+  object-fit: cover; /* Ensure the image covers the area properly */
+}
+
+/* Details info section styling */
+.details-info {
+  flex: 1;
+  max-width: 600px; /* Increased max-width to match image size */
+  padding: 20px; /* Add padding for better spacing */
+  background-color: #f9f9f9; /* Light background color for better readability */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Details title */
+.details-title {
+  margin-top: 30%;
+  font-size: 2.5rem; /* Increased font size */
+  color: #003366; /* Dark blue color */
+  margin-bottom: 15px; /* Increased margin */
+  text-align: center; /* Center the title */
+}
+
+/* Details description */
+.details-description {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px; /* Increased margin */
+  line-height: 1.6; /* Improved readability */
+}
+
+/* Paragraph styling */
+.details-description p {
+  margin: 10px 0; /* Space between paragraphs */
+}
+
+/* Highlight important details */
+.details-description span {
+  font-weight: 600;
+  color: #003366; /* Matching color with title for consistency */
+}
+
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2em;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .image-and-details {
+    flex-direction: column;
+    gap: 15px; /* Adjust spacing for smaller screens */
+  }
+
+  .main-image,
+  .details-info {
+    flex: none;
+    max-width: 100%; /* Ensure content fits within the container */
+  }
+
+  .details-title {
+    font-size: 1.5rem; /* Adjust title size for smaller screens */
+  }
+
+  .details-description {
+    font-size: 0.9rem; /* Adjust font size for readability */
+  }
+}
+
+/* Call-to-action button */
+.cta-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #003366;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #00509e;
+}
+
+#meta
+{
+  background-color: red;
+
+}
+
+
+/* Gallery container styling */
+.gallery-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-container img {
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #003366;
+}
+
+@media (max-width: 768px) {
+  .details-title {
+    font-size: 1.5rem;
+  }
+
+
+
+/* Booking Form */
+.booking-form {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+.owl-prev {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 50%; /* Circular background */
+  font-size: 24px; /* Size of the arrow */
+  width: 40px; /* Width of the circle */
+  height: 40px; /* Height of the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 40px; /* Center the icon vertically */
+  position: relative; /* Allow adjustments with absolute positioning */
+}
     .hero-slide .owl-nav .owl-prev {
       left: 10px; }
     .hero-slide .owl-nav .owl-next {
@@ -2027,36 +2355,4 @@ canvas {
     padding: 5px 10px;
     color: #fff; }
 
-.testimony-39291 blockquote {
-  border: 1px solid #ccc;
-  padding: 30px;
-  border-radius: 4px;
-  font-size: 16px;
-  position: relative; }
-  .testimony-39291 blockquote:after {
-    position: absolute;
-    content: "\e244";
-    font-family: "icomoon";
-    right: 10px;
-    bottom: 10px;
-    font-size: 30px;
-    color: #1089ff; }
-  .testimony-39291 blockquote p {
-    font-style: italic; }
-    .testimony-39291 blockquote p:last-child {
-      margin-bottom: 0; }
 
-.testimony-39291 .pic img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px; }
-
-.testimony-39291 .text {
-  line-height: 1; }
-  .testimony-39291 .text strong {
-    font-size: 15px;
-    color: #000;
-    margin-bottom: 4px; }
-  .testimony-39291 .text span {
-    font-size: 14px;
-    color: #ccc; }

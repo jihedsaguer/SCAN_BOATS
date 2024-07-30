@@ -45,7 +45,7 @@
     <div class="site-navbar py-2 js-sticky-header site-navbar-target d-none pl-0 d-lg-block" role="banner">
         <div class="container">
             <div class="d-flex align-items-center">
-                <img style="width: 100px"  alt="SACN Logo" class="img-fluid" src="./images/SCANlogo.jpeg">
+                <img style="    height: 100px"   alt="SACN Logo" class="img-fluid" src="./images/SACN-logo.png">
                 <div class="mx-auto">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none pl-0 d-lg-block">
@@ -124,31 +124,31 @@
                         </div>
 
                         <!-- Form -->
-                        <form>
+                        <form class="custom-form">
                             <!-- First Name -->
                             <div class="form-group mb-3">
                                 <label for="fname" class="font-weight-bold">First Name</label>
-                                <input type="text" id="fname" class="form-control form-control-lg" placeholder="Enter your first name">
+                                <input type="text" id="fname" class="form-control" placeholder="Enter your first name">
                             </div>
 
                             <!-- Last Name -->
                             <div class="form-group mb-3">
                                 <label for="lname" class="font-weight-bold">Last Name</label>
-                                <input type="text" id="lname" class="form-control form-control-lg" placeholder="Enter your last name">
+                                <input type="text" id="lname" class="form-control" placeholder="Enter your last name">
                             </div>
 
                             <!-- Email Address -->
                             <div class="form-group mb-3">
                                 <label for="eaddress" class="font-weight-bold">Email Address</label>
-                                <input type="email" id="eaddress" class="form-control form-control-lg" placeholder="Enter your email address">
+                                <input type="email" id="eaddress" class="form-control" placeholder="Enter your email address">
                             </div>
-
 
                             <!-- Submit Button -->
                             <div class="text-center">
-                                <button type="submit" class="btn btn-primary rounded-0 px-4 py-2">Send Message</button>
+                                <button type="submit" class="btn-submit">Send Message</button>
                             </div>
                         </form>
+
                     </div>
                 </div>
 
@@ -156,10 +156,11 @@
                 <div class="col-md-12 col-lg-6 mb-4">
                     <div class="map-container rounded shadow-sm border">
                         <!-- Google Maps iframe -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.9537697462594!2d-122.41941808468124!3d37.77492927975987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e7b4d3883%3A0x5b93d38e7c32c8f7!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1600241436844!5m2!1sen!2sin"
+                        <iframe   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.9537697462594!2d-122.41941808468124!3d37.77492927975987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e7b4d3883%3A0x5b93d38e7c32c8f7!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1600241436844!5m2!1sen!2sin"
                                 width="100%"
                                 height="300"
-                                style="border:0;"
+                                style="border:0;
+                              margin-top: 20%"
                                 allowfullscreen=""
                                 loading="lazy"></iframe>
                     </div>
@@ -171,7 +172,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <p class="mb-4"><img alt="Image" class="img-fluid" src="images/logo.png"></p>
+                    <img   alt="SACN Logo" class="img-fluid" src="./images/SCANLOGO.png">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto
                         iure.</p>
                     <p><a href="#">Learn More</a></p>
@@ -297,25 +298,51 @@
 </body>
 </html>
 <style>
-    .form-container {
-        margin-top: 50px;
-
-        background-color: #f8f9fa; /* Light background for the form container */
-        padding: 2rem; /* Increased padding for a spacious feel */
-        border-radius: 0.5rem; /* Rounded corners */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        border: 1px solid #ddd; /* Light border for separation */
+    .custom-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 10px;
     }
 
-    .form-container h2 {
-        color: #007bff; /* Primary color for the heading */
-        font-weight: 700; /* Bold text for emphasis */
+    .custom-form .form-group {
+        margin-bottom: 1.5rem;
     }
 
-    .form-container p {
-        color: #6c757d; /* Muted text color for the description */
+    .custom-form .form-control {
+        background: transparent;
+        border: 2px solid #ced4da;
+        border-radius: 8px;
+        padding: 0.75rem 1.25rem;
+        font-size: 1rem;
+        transition: border-color 0.3s, box-shadow 0.3s;
     }
 
+    .custom-form .form-control:focus {
+        border-color: #80bdff;
+    }
+
+    .custom-form .btn-submit {
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.3s;
+    }
+
+    .custom-form .btn-submit:hover {
+        background: #0056b3;
+        transform: translateY(-2px);
+    }
+
+    .custom-form .btn-submit:active {
+        background: #004494;
+        transform: translateY(0);
+    }
 
 
 </style>
