@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C805-removebg-preview.png', '/images/C881-gallery2.jpg', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C805-removebg-preview.png', '/images/C835-removebg-preview.png', '/images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/C840-removebg-preview.png',
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C805-removebg-preview.png', '/images/C881-gallery2.jpg', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C805-removebg-preview.png', '/images/C835-removebg-preview.png', '/images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/C855.png',
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C805-removebg-preview.png', '/images/C881-gallery2.jpg', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C805-removebg-preview.png', '/images/C835-removebg-preview.png', 'images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/C859-removebg-preview.png',
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/C863-removebg-preview.png',
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/CC869.png',
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/C870-removebg-preview.png',
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/C871-removebg-preview.png',
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C835-removebg-preview.png']
                 },
                 {
                     src: '/images/C871-removebg-preview.png',
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 180,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png']
                 },
                 {
                     src: '/images/C881-removebg-preview.png',
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 100,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png']
                 },
                 {
                     src: '/images/C8900-removebg-preview.png',
@@ -99,37 +99,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     y: 100,
                     details: 'Contribution 2 details',
                     popupId: 'popup-chart-1',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C881-gallery3.jpg']
+                    gallery: ['/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png', '/images/C872-removebg-preview.png']
                 },
 
                 // Add more images if needed
             ]
         },
-        {
-            id: 'line-chart-2',
-            data: [/* your data here */],
-            labels: ['2016', '2017', '2018', '2019', '2020', '2021', '2022'],
-            images: [
-                {
-                    src: '/images/C872-removebg-preview.png',
-                    x: 2,
-                    y: 180,
-                    details: 'Contribution 2 details',
-                    popupId: 'popup-chart-2',
-                    gallery: ['/images/C872-removebg-preview.png', '/images/C881-gallery2.jpg', '/images/C881-gallery3.jpg']
-                },
-            ]
-        },
-        {
-            id: 'line-chart-3',
-            data: [/* your data here */],
-            labels: ['2022', '2023', '2024', '2025', '2026', '2027', '2028'],
-            images: [
-                { src: '/images/C840-removebg-preview.png', x: 4, y: 120, details: 'Boat: C840', popupId: 'popup-chart-3' },
-                { src: '/images/C8900-removebg-preview.png', x: 1, y: 120, details: 'Future Plan 1 details', popupId: 'popup-chart-3' },
-                { src: '/images/C881-removebg-preview.png', x: 3, y: 210, details: 'Future Plan 2 details', popupId: 'popup-chart-3' },
-            ]
-        }
+
     ];
 
     function createImagePlugin(images) {
@@ -151,6 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         ctx.drawImage(image, xPos - imgWidth / 2, yPos - imgHeight / 2, imgWidth, imgHeight);
 
+                        // Event listeners
                         ctx.canvas.addEventListener('mousemove', (event) => {
                             const { offsetX, offsetY } = event;
                             if (offsetX >= xPos - imgWidth / 2 && offsetX <= xPos + imgWidth / 2 &&
@@ -174,7 +151,17 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
+
     function showPopup(details, x, y, popupId, imageSrc, gallery) {
+        // Hide any existing popups
+        const existingPopups = document.querySelectorAll('.popup.show');
+        existingPopups.forEach(popup => {
+            popup.style.display = 'none';
+            popup.classList.remove('show');
+            popup.classList.add('hide');
+        });
+
+        // Find the popup element by ID
         const popup = document.getElementById(popupId);
         if (popup) {
             const galleryImages = gallery ? gallery.map(src =>
@@ -182,28 +169,44 @@ document.addEventListener('DOMContentLoaded', () => {
             ).join('') : '';
 
             popup.innerHTML = `
-            <div class="popup-content">
-                <strong>${details}</strong>
-                <br>
-                <div class="gallery" style="display: none;">
-                    ${galleryImages}
-                </div>
-                <button class="more-details-btn" onclick="window.location.href='./details.html?id=${encodeURIComponent(popupId)}&image=${encodeURIComponent(imageSrc)}&gallery=${encodeURIComponent(gallery.join(','))}&details=${encodeURIComponent(details)}'">More Details</button>
+        <div class="popup-content">
+            <strong>${details}</strong>
+            <br>
+            <div class="gallery" style="display: none;">
+                ${galleryImages}
             </div>
-        `;
+            <button class="more-details-btn" onclick="window.location.href='./details.html?id=${encodeURIComponent(popupId)}&image=${encodeURIComponent(imageSrc)}&gallery=${encodeURIComponent(gallery.join(','))}&details=${encodeURIComponent(details)}'">More Details</button>
+        </div>
+    `;
 
             popup.style.display = 'block';
             popup.style.position = 'absolute';
             popup.style.left = `${x}px`;
             popup.style.top = `${y}px`;
             popup.classList.add('show');
-            setTimeout(() => {
-                popup.classList.remove('show');
-                popup.classList.add('hide');
-            }, 5000); // Hide after 5 seconds
+            popup.classList.remove('hide');
         } else {
             console.error(`Popup with ID ${popupId} not found.`);
         }
+        // Global click listener to hide popups when clicking outside
+        document.addEventListener('click', (event) => {
+            const popups = document.querySelectorAll('.popup.show');
+            popups.forEach(popup => {
+                const popupRect = popup.getBoundingClientRect();
+                const { clientX, clientY } = event;
+
+                if (
+                    clientX < popupRect.left ||
+                    clientX > popupRect.right ||
+                    clientY < popupRect.top ||
+                    clientY > popupRect.bottom
+                ) {
+                    popup.style.display = 'none';
+                    popup.classList.remove('show');
+                    popup.classList.add('hide');
+                }
+            });
+        });
     }
 
 
@@ -225,18 +228,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: {
+                    legend: {
+                        display: false // Ensure the legend is not displayed
+                    },
                     [config.id + '-plugin']: createImagePlugin(config.images)
                 },
                 scales: {
                     x: {
                         title: {
                             display: true,
-                            text: 'Year',
+                            text: '',
                             position: 'top'
                         },
                         grid: {
                             display: true,
-                            color: '#8B4513', // Brown color for grid lines
+                            color: '#273ba1', // Brown color for grid lines
                             lineWidth: 2
                         },
                         ticks: {

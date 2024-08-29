@@ -6,33 +6,123 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Dancing+Script:400,700|Muli:300,400"
-          rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/jquery-ui.css" rel="stylesheet">
     <link href="./css/owl.carousel.min.css" rel="stylesheet">
     <link href="./css/owl.theme.default.min.css" rel="stylesheet">
-    <link href="./css/owl.theme.default.min.css" rel="stylesheet">
-
     <link href="./css/jquery.fancybox.min.css" rel="stylesheet">
     <link href="./css/bootstrap-datepicker.css" rel="stylesheet">
     <link href="./fonts/flaticon/font/flaticon.css" rel="stylesheet">
     <link href="./css/aos.css" rel="stylesheet">
-    <link href="./css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet">
+
 
 
 </head>
 
 <body data-offset="300" data-spy="scroll" data-target=".site-navbar-target">
+<!-- New mobile navbar -->
+<div class="site-mobile-navbar d-lg-none">
+    <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+            <span class="icon-close2 js-mobile-menu-toggle"></span>
+        </div>
+    </div>
+    <div class="site-mobile-menu-body">
+        <nav class="site-navigation" role="navigation">
+            <ul class="site-menu">
+                <!-- Home Section -->
+                <li class="active">
+                    <a class="nav-link" href="./index.html">Accueil</a>
+                </li>
+                <!-- About Us Section -->
+                <li>
+                    <a class="nav-link" href="./about.html">A Propos</a>
+                </li>
+                <!-- Services Section -->
 
+                <!-- Projects Section -->
+                <li>
+                    <a class="nav-link" href="./project.html">Projets</a>
+                </li>
+                <!-- Contact Section -->
+                <li>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<style>
+    /* Mobile menu styles */
+    .site-mobile-navbar {
+
+background-color: #0b223a;
+        z-index: 9999;
+        overflow-y: auto;
+    }
+
+    .site-mobile-menu-header {
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+    }
+
+    .site-mobile-menu-close {
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .site-mobile-menu-body {
+        padding: 20px;
+    }
+
+    .site-mobile-menu .site-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-mobile-menu .site-menu li {
+        margin: 15px 0;
+    }
+
+    .site-mobile-menu .site-menu li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+
+
+    /* Show mobile menu on smaller screens */
+    @media (max-width: 992px) {
+        .site-navbar {
+            display: none;
+        }
+        .site-mobile-navbar {
+            display: block;
+        }
+        .site-mobile-menu-toggle {
+            display: block;
+            cursor: pointer;
+            font-size: 24px;
+        }
+    }
+
+</style>
+<!-- Toggle button for mobile menu -->
+<div class="site-mobile-menu-toggle d-lg-none">
+    <span class="icon-menu js-mobile-menu-toggle"></span>
+</div>
+
+</div>
 <div class="site-wrap">
-
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
             <div class="site-mobile-menu-close mt-3">
@@ -108,6 +198,10 @@
     </div>
 
 </div>
+<style>
+
+
+</style>
 <div class="hero-slide owl-carousel site-blocks-cover">
     <!-- First Slide -->
     <div class="intro-section" style="background-image: url('images/hero_1.jpg');">
@@ -136,10 +230,10 @@
     </div>
 </div>
 
-</div>
+</body>
 <!-- END slider -->
 <div class="site-section">
-    <div class="container">
+    <div class="container" style="padding:100px 0px;">
         <div class="row">
             <div class="col-md-6">
                 <img alt="SCAN Technology" class="img-fluid" src="./images/boat1.jpg">
@@ -156,7 +250,7 @@
 </div>
 
 
-<div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg');">
+<div class="site-section stats-web bg-image overlay" style="background-image: url('images/hero_1.jpg');">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -195,14 +289,14 @@
 
        <div class="site-section bg-light">
            <div class="container">
-             <div class="row justify-content-center mb-5">
+             <div class="row justify-content-center mb-2">
                <div class="col-md-7 text-center">
                 <span class="text-serif text-primary">Our Services</span>
-                 <h3 class=" text-black">What We Offer</h3>
+                 <h3 class=" text-black" style="margin-bottom: 20px;">What We Offer</h3>
             </div>
         </div>
 
-              
+
 
         <div class="row">
             <!-- Service 1 -->
@@ -247,70 +341,111 @@
 
             <!-- Service 6 -->
             <div class="col-md-6 col-lg-4 mb-4">
-               
+
             </div>
         </div>
     </div>
 </div>
 
-<div class="back-chart" style="background-color: #FFFFFF;">
+<<div class="back-chart" style="background-color: #FFFFFF;">
     <div class="container">
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center" style="margin-top: 20px;">
             <div class="col-md-7 text-center">
-                <span class="text-serif text-primary">Find Out</span>
+                <span class="text-serif text-primary"  >Find Out</span>
                 <h3 class="text-black">Ready Project</h3>
             </div>
         </div>
     </div>
     <div class="chart-container-wrapper">
-        <div style="width: 1080px;" id="chart1" class="chart-container">
+        <div id="chart1" class="chart-container">
             <canvas id="line-chart-1"></canvas>
-            <!-- Popup for chart 1 -->
             <div class="popup" id="popup-chart-1"></div>
         </div>
     </div>
 </div>
-
-
+<!-- New section with progress cards -->
 <div class="site-section bg-light">
-    <div class="back-chart" style="background-color: #f3efef">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center">
-                    <span class="text-serif text-primary">Find Out</span>
-                    <h3 class="text-black">Working on Project</h3>
-                </div>
+    <div class="container">
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-7 text-center">
+                <span class="text-serif text-primary">Project Progress</span>
+                <h3 class="text-black">Our Building Process</h3>
             </div>
         </div>
-        <div class="chart-container-wrapper">
-            <div style="width: 1080px" id="chart2" class="chart-container">
-                <canvas id="line-chart-2"></canvas>
-                <div class="popup" id="popup-chart-2"></div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./images/C855.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Phase 1</h5>
+                        <p class="card-text">Description of phase 1 with details about what is completed.</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./images/C840-removebg-preview.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Phase 2</h5>
+                        <p class="card-text">Description of phase 2 with details about what is completed.</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./images/C835-removebg-preview.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Phase 3</h5>
+                        <p class="card-text">Description of phase 3 with details about what is completed.</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./images/C805-removebg-preview.png" class="card-img-top" alt="Project 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Phase 4</h5>
+                        <p class="card-text">Description of phase 4 with details about what is completed.</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<style>
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
 
-<div class="site-section bg-light">
-    <div class="back-chart" style="background-color: #dcd8d8">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center">
-                    <span class="text-serif text-primary">Find Out</span>
-                    <h3 class="text-black">Future Project</h3>
-                </div>
-            </div>
-        </div>
-        <div class="chart-container-wrapper">
-            <div style="width: 1080px" id="chart3" class="chart-container">
-                <canvas id="line-chart-3"></canvas>
-                <div class="popup" id="popup-chart-3"></div>
-            </div>
-        </div>
-    </div>
-</div>
-                        <div class="site-section bg-image overlay" style="background-image: url('images/hero_2.jpg');">
-                            <div class="container">
+    .card-body {
+        flex: 1;
+    }
+
+</style>
+
+<div class="site-section bg-image overlay" style="background-image: url('images/hero_2.jpg');height: 250px;">
+                            <div class="container" style="align-items: center;">
                                 <div class="row justify-content-center">
                                     <div class="col-md-7 text-center">
                                         <h2 class="text-white">Get In Touch With Us</h2>
@@ -324,14 +459,12 @@
 
 
 
-                        <div id="" class="footer bg-light">
-    <div class="container">
+<div id="" class="footer bg-light">
+    <div class="container" style="padding-top: 50px; align-items: flex-start;">
         <div class="row">
             <div class="col-lg-3">
                 <p class="mb-4"><img alt="Image" class="img-fluid" src="./images/SCANLOGO.png"></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto
-                    iure.</p>
-                <p><a href="#">Learn More</a></p>
+               
             </div>
             <div class="col-lg-3">
                 <h3 class="footer-heading"><span>Our Company</span></h3>
@@ -363,7 +496,7 @@
                 </ul>
             </div>
         </div>
-
+<img src="./images/signature.png" >
 
 
 </div>
@@ -372,14 +505,15 @@
 
 <!-- loader -->
 <div class="show fullscreen" id="loader">
-    <svg class="circular" height="48px" width="48px">
-        <circle class="path-bg" cx="24" cy="24" fill="none" r="22" stroke="#eeeeee" stroke-width="4"/>
+        <circle class="path-bg" cx="24" cy="24" fill="none" r="22" stroke="#eeeeee" stroke-width="4"></circle>
         <circle class="path" cx="24" cy="24" fill="none" r="22" stroke="#ff5e15" stroke-miterlimit="10"
-                stroke-width="4"/>
+                stroke-width="4"></circle>
     </svg>
+
 </div>
-</body>
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 
 <script src="./js/jquery-3.3.1.min.js"></script>
 <script src="./js/jquery-migrate-3.0.1.min.js"></script>
@@ -400,7 +534,16 @@
 
 <script src="./js/main.js"></script>
 
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const mobileMenuToggle = document.querySelector('.js-mobile-menu-toggle');
+        const mobileNavbar = document.querySelector('.site-mobile-navbar');
 
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileNavbar.classList.toggle('open');
+        });
+    });
 
+</script>
 
 </html>
